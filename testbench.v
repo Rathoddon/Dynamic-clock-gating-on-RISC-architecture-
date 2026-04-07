@@ -2,29 +2,29 @@
 
 module tb_project_ca;
 
-reg clk;
-reg reset;
-wire debug_clk;
+    reg clk;
+    reg reset;
+    wire debug_clk;
 
-project_ca DUT (
-    .clk(clk),
-    .reset(reset),
-    .debug_clk(debug_clk)
-);
+    // Instantiate DUT
+    project_ca DUT (
+        .clk(clk),
+        .reset(reset),
+        .debug_clk(debug_clk)
+    );
 
-initial begin 
-    clk = 0;
-    forever #5 clk = ~clk;   // 100 MHz clock
-end 
+    // Clock generation: 10ns period = 100 MHz
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+    end
 
-initial begin 
-    reset = 1;
-    #20;
-    reset = 0;
-end
-
-// Initialize registers inside DUT
-initial begin
+    // Reset sequence
+    initial begin
+        reset = 1;
+        #20 reset = 0;
+    end
+    initial begin
     DUT.R.reg_array[0] = 16'd1;
     DUT.R.reg_array[1] = 16'd2;
     DUT.R.reg_array[2] = 16'd5;
@@ -42,15 +42,23 @@ initial begin
     DUT.IM.inst_mem[4] = 24'b1011_0000_0000_0000_0000_0000;
 end
 
-// Dump all signals for waveform viewing
 initial begin
-    $dumpfile("processor.vcd");
-    $dumpvars(0, DUT);   // capture all internals of DUT
+    $monitor("T=%0t | PC=%h | OPCODE=%b | ALU=%h | REG_A=%h | REG_B=%h",
+              $time,
+              DUT.pc,
+              DUT.opcode,
+              DUT.alu_result,
+              DUT.regA,
+              DUT.regB);
 end
+    // Simulation control
+    initial begin
+        // Dump VCD for waveform + power analysis
+        $dumpfile("design1.vcd");
+        $dumpvars(0, tb_project_ca);
 
-initial begin
-    #500;
-    $finish;
-end
-
+        // Run simulation for 500 ns
+        #500;
+        $finish;
+    end
 endmodule
