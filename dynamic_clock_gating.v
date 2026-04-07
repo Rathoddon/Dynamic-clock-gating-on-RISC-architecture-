@@ -1,12 +1,14 @@
-
 module project_ca(
     input  wire clk,
-    input  wire reset
+    input  wire reset,
+    output wire debug_clk
 );
+
+assign debug_clk = clk;
 
 // Control signals
 wire decode_en, execute_en, mem_en, pc_en, reg_wt, mem_rd, mem_wt, jmp;
-wire carry_int,zero_int,parity_int;
+wire carry_int, zero_int, parity_int;
 wire [1:0] wb_sel;
 
 // Clock gating 
