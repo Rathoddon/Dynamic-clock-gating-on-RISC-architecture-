@@ -1,0 +1,1699 @@
+T=0 | PC=0000 | STATE=0 | INST=910000 | OPCODE=0 | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 00xxxx | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    0
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+-----------------------------------
+R0=    0
+R1=    0
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+-----------------------------------
+R0=    0
+R1=    0
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=25000 | PC=0000 | STATE=1 | INST=910000 | OPCODE=9 | RZ= 1 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 00xxxx | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    0
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=35000 | PC=0000 | STATE=3 | INST=910000 | OPCODE=9 | RZ= 1 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 00xxxx | write data = 00xxxx | mem_read = 1 | register write = 0 | write back = 01
+-----------------------------------
+R0=    0
+R1=    0
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=45000 | PC=0000 | STATE=4 | INST=910000 | OPCODE=9 | RZ= 1 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000005 | mem_read = 0 | register write = 1 | write back = 01
+-----------------------------------
+R0=    0
+R1=    0
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=55000 | PC=0001 | STATE=0 | INST=920000 | OPCODE=9 | RZ= 1 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=65000 | PC=0001 | STATE=1 | INST=920000 | OPCODE=9 | RZ= 2 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=75000 | PC=0001 | STATE=3 | INST=920000 | OPCODE=9 | RZ= 2 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000005 | mem_read = 1 | register write = 0 | write back = 01
+-----------------------------------
+R0=    0
+R1=    5
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=85000 | PC=0001 | STATE=4 | INST=920000 | OPCODE=9 | RZ= 2 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000005 | mem_read = 0 | register write = 1 | write back = 01
+-----------------------------------
+R0=    0
+R1=    5
+R2=    0
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=95000 | PC=0002 | STATE=0 | INST=021100 | OPCODE=9 | RZ= 2 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=    5
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=105000 | PC=0002 | STATE=1 | INST=021100 | OPCODE=0 | RZ= 2 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=000a | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=    5
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=115000 | PC=0002 | STATE=2 | INST=021100 | OPCODE=0 | RZ= 2 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=000a | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 00000a | mem_read = 0 | register write = 0 | write back = 10
+-----------------------------------
+R0=    0
+R1=    5
+R2=    5
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=125000 | PC=0002 | STATE=4 | INST=021100 | OPCODE=0 | RZ= 2 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=000a | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 00000a | mem_read = 0 | register write = 1 | write back = 10
+-----------------------------------
+R0=    0
+R1=    5
+R2=    5
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=135000 | PC=0003 | STATE=0 | INST=c01106 | OPCODE=0 | RZ= 2 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=000a | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=145000 | PC=0003 | STATE=1 | INST=c01106 | OPCODE=c | RZ= 0 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 000006 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=155000 | PC=0006 | STATE=0 | INST=0d1100 | OPCODE=c | RZ= 0 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000006 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=165000 | PC=0006 | STATE=1 | INST=0d1100 | OPCODE=0 | RZ=13 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=000a | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=175000 | PC=0006 | STATE=2 | INST=0d1100 | OPCODE=0 | RZ=13 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=000a | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 00000a | mem_read = 0 | register write = 0 | write back = 10
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=185000 | PC=0006 | STATE=4 | INST=0d1100 | OPCODE=0 | RZ=13 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=000a | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 00000a | mem_read = 0 | register write = 1 | write back = 10
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=    0
+-----------------------------------
+T=195000 | PC=0007 | STATE=0 | INST=d0120a | OPCODE=0 | RZ=13 RX= 1 RY= 1 | REGA=0005 REGB=0005 | ALU=000a | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=205000 | PC=0007 | STATE=1 | INST=d0120a | OPCODE=d | RZ= 0 RX= 1 RY= 2 | REGA=0005 REGB=000a | ALU=fffb | ZERO=0 | JMP=1 | mem_data = 000005 | write data = 00000a | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=215000 | PC=000a | STATE=0 | INST=a00100 | OPCODE=d | RZ= 0 RX= 1 RY= 2 | REGA=0005 REGB=000a | ALU=fffb | ZERO=0 | JMP=0 | mem_data = 000005 | write data = 00000a | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=225000 | PC=000a | STATE=1 | INST=a00100 | OPCODE=a | RZ= 0 RX= 0 RY= 1 | REGA=0000 REGB=0005 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=235000 | PC=000a | STATE=3 | INST=a00100 | OPCODE=a | RZ= 0 RX= 0 RY= 1 | REGA=0000 REGB=0005 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=245000 | PC=000a | STATE=4 | INST=a00100 | OPCODE=a | RZ= 0 RX= 0 RY= 1 | REGA=0000 REGB=0005 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=255000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=a | RZ= 0 RX= 0 RY= 1 | REGA=0000 REGB=0005 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 000000 | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=265000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=275000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=285000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=295000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=305000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=315000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=325000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=335000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=345000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=355000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=365000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=375000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=385000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=395000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=405000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=415000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=425000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=435000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=445000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=455000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=465000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=475000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=485000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=495000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=505000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=515000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=525000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=535000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=545000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=555000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=565000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=575000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=585000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=595000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=605000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=615000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=625000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=635000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=645000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=655000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=665000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=675000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=685000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=695000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=705000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=715000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=725000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=735000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=745000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=755000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=765000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=775000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=785000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=795000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=805000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=815000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=825000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=835000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=845000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=855000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=865000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=875000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=885000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=895000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=905000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=915000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=925000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=935000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=945000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=955000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=965000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=975000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=985000 | PC=000b | STATE=1 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=1 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
+-----------------------------------
+R0=    0
+R1=    5
+R2=   10
+R3=    0
+R4=    0
+R5=    0
+R6=    0
+R7=    0
+R8=    0
+R9=    0
+R10=    0
+R11=    0
+R12=    0
+R13=   10
+-----------------------------------
+T=995000 | PC=000b | STATE=0 | INST=b0000b | OPCODE=b | RZ= 0 RX= 0 RY= 0 | REGA=0000 REGB=0000 | ALU=0000 | ZERO=1 | JMP=0 | mem_data = 000005 | write data = 00000b | mem_read = 0 | register write = 0 | write back = 00
