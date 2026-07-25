@@ -1,64 +1,68 @@
 `timescale 1ns/1ps
 
-module tb_project_ca;
+module tb_project_ca();
 
     reg clk;
     reg reset;
     wire debug_clk;
 
-    // Instantiate DUT
-    project_ca DUT (
+    // Instantiate Unit Under Test (UUT)
+    project_ca UUT (
         .clk(clk),
         .reset(reset),
         .debug_clk(debug_clk)
     );
 
-    // Clock generation: 10ns period = 100 MHz
+    // Clock generation: 10ns period (100 MHz)
+    always #5 clk = ~clk;
+
     initial begin
         clk = 0;
-        forever #5 clk = ~clk;
-    end
-
-    // Reset sequence
-    initial begin
         reset = 1;
-        #20 reset = 0;
-    end
-    initial begin
-    DUT.R.reg_array[0] = 16'd1;
-    DUT.R.reg_array[1] = 16'd2;
-    DUT.R.reg_array[2] = 16'd5;
-    DUT.R.reg_array[3] = 16'd10;
-    DUT.R.reg_array[4] = 16'd0;
-    DUT.R.reg_array[5] = 16'd0;
-end
-
-// Initialize instruction memory
-initial begin
-    DUT.IM.inst_mem[0] = 24'b0000_0001_0010_0011_0000_0000;
-    DUT.IM.inst_mem[1] = 24'b0001_0100_0001_0010_0000_0000;
-    DUT.IM.inst_mem[2] = 24'b1001_0101_0000_0000_0000_0100;
-    DUT.IM.inst_mem[3] = 24'b1010_0101_0000_0000_0000_0110;
-    DUT.IM.inst_mem[4] = 24'b1011_0000_0000_0000_0000_0000;
-end
-
-initial begin
-    $monitor("T=%0t | PC=%h | OPCODE=%b | ALU=%h | REG_A=%h | REG_B=%h",
-              $time,
-              DUT.pc,
-              DUT.opcode,
-              DUT.alu_result,
-              DUT.regA,
-              DUT.regB);
-end
-    // Simulation control
-    initial begin
-        // Dump VCD for waveform + power analysis
-        $dumpfile("design1.vcd");
-        $dumpvars(0, tb_project_ca);
-
-        // Run simulation for 500 ns
-        #500;
+        #20;
+        reset = 0;
+        
+        // Run simulation for sufficient duration
+        #1000;
         $finish;
     end
+
+    // Comprehensive monitoring matching the transcript format
+    initial begin
+        $monitor("T=%0t | PC=%04h | STATE=%0d | INST=%6h | OPCODE=%h | RZ=%2d RX=%2d RY=%2d | REGA=%04h REGB=%04h | ALU=%4h | ZERO=%b | JMP=%b | mem_data = %6h | write data = %6h | mem_read = %b | register write = %b | write back = %b",
+            $time, 
+            UUT.pc, 
+            UUT.CU.state, 
+            UUT.instruction, 
+            UUT.opcode, 
+            UUT.rz, UUT.rx, UUT.ry, 
+            UUT.regA, UUT.regB, 
+            UUT.alu_result, 
+            UUT.zero_int, 
+            UUT.jmp, 
+            UUT.mem_data, 
+            UUT.write_data, 
+            UUT.mem_rd, 
+            UUT.reg_wt, 
+            UUT.wb_sel
+        );
+        end 
+        always @(posedge clk) begin
+    $display("-----------------------------------");
+    $display("R0=%d",  UUT.R.reg_array[0]);
+    $display("R1=%d",  UUT.R.reg_array[1]);
+    $display("R2=%d",  UUT.R.reg_array[2]);
+    $display("R3=%d",  UUT.R.reg_array[3]);
+    $display("R4=%d",  UUT.R.reg_array[4]);
+    $display("R5=%d",  UUT.R.reg_array[5]);
+    $display("R6=%d",  UUT.R.reg_array[6]);
+    $display("R7=%d",  UUT.R.reg_array[7]);
+    $display("R8=%d",  UUT.R.reg_array[8]);
+    $display("R9=%d",  UUT.R.reg_array[9]);
+    $display("R10=%d", UUT.R.reg_array[10]);
+    $display("R11=%d", UUT.R.reg_array[11]);
+    $display("R12=%d", UUT.R.reg_array[12]);
+    $display("R13=%d", UUT.R.reg_array[13]);
+    $display("-----------------------------------");
+end
 endmodule
