@@ -36,6 +36,16 @@ gating_controller GCTRL (
 
 // Proven BUFGCE-based clock gate for the register file
 
+clock_gate CG_REG (.clk(clk), .enable(reg_en_gated_ctrl), .gclk(reg_gclk));
+clock_gate CG_DM  (.clk(clk), .enable(mem_en),            .gclk(dm_gclk));
+
+registers R(.rz(rz), .rx(rx), .ry(ry), .out_data(write_data),
+            .reg_wt(reg_wt), .clk(reg_gclk),
+            .rx_value(regA), .ry_value(regB));
+
+data_memory DM(.address(alu_result), .clk(dm_gclk), .mem_rd(mem_rd),
+               .mem_wt(mem_wt), .write_data(regB),
+               .data(mem_data));
 // Modules
 program_counter PC(.clk(clk), .reset(reset), .pc_en(pc_en), .jmp(jmp),
                    .jmp_address(immediate), .address(pc));
@@ -49,16 +59,8 @@ instruction_register IR(.instruction(instruction), .clk(clk),
                         .reset(reset), .opcode(opcode), .rz(rz), .rx(rx), .ry(ry),
                         .immediate(immediate));
 
-data_memory DM(.address(alu_result), .clk(clk), .mem_rd(mem_rd),
-               .mem_wt(mem_wt && mem_en), .write_data(regB),
-               .data(mem_data));
-
 Write_data WR(.immediate(immediate), .data(mem_data), .ALU_op(alu_result),
               .sel(wb_sel), .out_data(write_data));
-
-registers R(.rz(rz), .rx(rx), .ry(ry), .out_data(write_data),
-            .reg_wt(reg_wt), .clk(clk),
-            .rx_value(regA), .ry_value(regB));
 
 alu ALU(.rx_value(regA), .ry_value(regB), .opcode(opcode),
         .ALU_op(alu_result), .carry(carry_int), .zero(zero_int), .parity(parity_int));
